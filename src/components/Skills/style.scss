@@ -1,0 +1,43 @@
+.skills-container {
+  .skills-details-container {
+    gap: 50px;
+    margin-top: 40px;
+  }
+
+  .skills-wrapper {
+    min-width: 310px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 0;
+  }
+  .skill-wrapper {
+    flex-direction: column;
+
+    p {
+      margin-top: 10px;
+    }
+  }
+  .skill-logo {
+    width: 64px;
+    height: 64px;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  ul {
+    gap: 20px;
+
+    padding: 0px 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .skills-container {
+    .skills-wrapper {
+      min-width: 285px;
+    }
+  }
+}

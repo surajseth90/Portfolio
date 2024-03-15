@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: linear-gradient(
+    84deg,
+    rgba(25, 55, 109, 1) 0%,
+    rgba(11, 36, 71, 1) 35%
+  );
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.overflow-auto {
+  overflow: auto !important;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-dark {
+  color: rgba(12, 12, 12) !important;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+section {
+  padding: 60px 0;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+// ------------btns
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  border-radius: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-1 {
+  background-color: transparent;
+  border: 2px solid rgba(12, 12, 12, 0.6);
+
+  &:hover {
+    background-color: #576cbc;
+    border: 2px solid #576cbc;
+  }
+}
+
+.btn-2 {
+  background-color: #576cbc;
+  border: 2px solid #576cbc;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+// ------------btns
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px 0;
+}
