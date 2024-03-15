@@ -15,7 +15,7 @@ export default function About() {
             <div>
               <img src={ProfilePic} alt="Profile" className="about-pic" />
             </div>
-            <div className="flex-1 about-details-container">
+            <div className="about-details-container">
               <div className="about-containers">
                 <div className="details-container">
                   <img src={ExpImg} alt="Experience icon" className="icon" />
