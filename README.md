@@ -1,6 +1,14 @@
 # Portfolio Website
 
-Welcome to our Portfolio Website! This is a React-based website template designed to showcase your skills, projects, and experience. Users can easily create their own portfolio websites by updating the resume file, profile image, and `data.json` file accordingly.
+Welcome to our Portfolio Website! This is a React-based website template designed to showcase your skills, projects, and experience. Users can easily create their own portfolio websites by updating the resume file, profile image, and `data.js` file accordingly.
+
+## Steps to Create Your Website
+1. Clone the project using the command `git clone https://github.com/surajseth90/Portfolio`
+2. Run `npm install`
+3. Update your resume and profile image from  the `assets` folder
+4. Update your data in the `data.js` file
+5. Run `npm start` to verify everything looks fine
+6. Run `npm run build` to create a build, and then deploy this in your any desired hosting platform
 
 ## Features
 
