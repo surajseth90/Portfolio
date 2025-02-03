@@ -2,10 +2,12 @@
 import HTMLLogo from "./assets/images/html.png";
 import CSSLogo from "./assets/images/css.png";
 import JSLogo from "./assets/images/javascript.png";
+import TSLogo from "./assets/images/Typescript.png";
 import ReactLogo from "./assets/images/react.png";
 import ReduxLogo from "./assets/images/redux.png";
 import SassLogo from "./assets/images/sass.png";
 import SwiperLogo from "./assets/images/swiper-logo.svg";
+import NextLogo from "./assets/images/next-js.svg";
 // import MUILogo from "./assets/images/mu5.png"
 import BootstrapLogo from "./assets/images/Bootstrap-logo.png";
 import jQueryLogo from "./assets/images/jquery.svg";
@@ -27,6 +29,15 @@ import GitLogo from "./assets/images/git.png";
 import FFPrev from "./assets/images/fashion-fusion-prev.png";
 import PortfolioBuilderPrev from "./assets/images/portfolio-builder-prev.png";
 import XChatPrev from "./assets/images/x-chat-prev.png";
+import Iamthecheftoo from './assets/images/iamthecheftoo.png'
+import Rauantiques from './assets/images/Rauantiques.png'
+import Lemond from './assets/images/Lemond.png'
+import Zoneliving from './assets/images/Zoneliving.png'
+import Platecrate from './assets/images/Platecrate.png'
+import Banditsports from './assets/images/Banditsports.png'
+import Blindbarrels from './assets/images/Blindbarrels.png'
+
+
 
 export const ProfileHeaderWordss = [
   "Hello, I'm Suraj Gupta",
@@ -35,7 +46,7 @@ export const ProfileHeaderWordss = [
 
 export const AboutSectionData = {
   experience: {
-    time: "3 Years",
+    time: "4 Years",
     in: "Web Development",
   },
   education: {
@@ -43,7 +54,7 @@ export const AboutSectionData = {
     in: "B.Tech in CSE",
   },
   aboutText:
-    "Experienced Web Developer with 3 years in JavaScript, React, HTML, CSS, and Redux. Passionate about high-quality code development and eager to contribute to innovative projects.",
+    "Experienced Web Developer with 4 years of expertise in building dynamic web applications using React, JavaScript, TypeScript, HTML, SCSS, Web components and Micro-frontend. Passionate about creating high-quality, maintainable code and contributing to innovative, user-centered projects.",
 };
 
 export const frontEndSkills = [
@@ -60,8 +71,16 @@ export const frontEndSkills = [
     logo: ReactLogo,
   },
   {
+    name: "Next JS",
+    logo: NextLogo,
+  },
+  {
     name: "JavaScript",
     logo: JSLogo,
+  },
+  {
+    name: "TypeScript",
+    logo: TSLogo,
   },
   {
     name: "SCSS",
@@ -182,13 +201,76 @@ export const ProjectData = [
     ],
   },
   {
+    img: Iamthecheftoo,
+    title: "Imthecheftoo",
+    desc: "A Shopify store for cooking essentials, implementing custom web components, metaobjects, and advanced cart value manipulations.",
+    techStack: ["HTML5", "CSS", "Javascript", "Shopify", "Shopify Apps", "Bootstrap", "GSAP"],
+    actions: [
+      { label: "View Store", URL: "https://www.imthecheftoo.com/" }
+    ],
+  },
+  {
+    img: Platecrate,
+    title: "Platecrate",
+    desc: " A Shopify store for all baseball sports essentials with custom web components, metaobjects, and dynamic cart logic for enhanced functionality.",
+    techStack: ["HTML5", "CSS", "Javascript", "Shopify", "Shopify Apps", "Bootstrap", "GSAP"],
+    actions: [
+      { label: "View Store", URL: "https://www.platecrate.com/" }
+    ],
+  },
+  {
+    img: Banditsports,
+    title: "Banditsports",
+    desc: "A Shopify store for all baseball sports essentials with custom web components, metaobjects, and dynamic cart logic for enhanced functionality.",
+    techStack: ["HTML5", "CSS", "Javascript", "Shopify", "Shopify Apps", "Bootstrap", "GSAP"],
+    actions: [
+      { label: "View Store", URL: "https://banditsports.com/" }
+    ],
+  },
+  {
+    img: Blindbarrels,
+    title: "Blindbarrels",
+    desc: "A Shopify store for online whiskey sales, integrating custom web components, metaobjects, and advanced cart logic for a seamless shopping experience.",
+    techStack: ["HTML5", "CSS", "Javascript", "Shopify", "Shopify Apps", "Bootstrap", "GSAP"],
+    actions: [
+      { label: "View Store", URL: "https://banditsports.com/" }
+    ],
+  },
+  {
+    img: Rauantiques,
+    title: "Rauantiques",
+    desc: "A Shopify store for unique handmade items, including paintings, jewelry, sculptures, and art materials, leveraging custom web components and dynamic UI enhancements for an engaging shopping experience.",
+    techStack: ["HTML5", "CSS", "Javascript", "Shopify", "Shopify Apps", "Bootstrap", "GSAP"],
+    actions: [
+      { label: "View Store", URL: "https://rauantiques.com/" }
+    ],
+  },
+  {
+    img: Zoneliving,
+    title: "Zoneliving",
+    desc: "A Shopify store for healthy food supplements and dietary products, integrating custom web components, metaobjects, and optimized cart functionalities for a seamless user experience.",
+    techStack: ["HTML5", "CSS", "Javascript", "Shopify", "Shopify Apps", "Bootstrap", "GSAP"],
+    actions: [
+      { label: "View Store", URL: "https://zoneliving.com/" }
+    ],
+  },
+  {
     img: XChatPrev,
     title: "X-Chat",
-    desc: `"This is a an amazing real time chatting app where you can search for people and talk to them privately.(Please click on <strong>Back to our site</strong> button if you see <strong>Page Not Found</strong> error.)`,
+    desc: `This is a an amazing real time chatting app where you can search for people and talk to them privately.(Please click on <strong>Back to our site</strong> button if you see <strong>Page Not Found</strong> error.)`,
     techStack: ["React", "Firebase"],
     actions: [
       { label: "DEMO", URL: "https://x-chat-react.netlify.app/" },
       { label: "CODE", URL: "https://github.com/surajseth90/X-Chat" },
+    ],
+  },
+  {
+    img: Lemond,
+    title: "Lemond",
+    desc: "A Shopify store for electric bikes, implementing custom web components, dynamic product filtering, and optimized checkout flows for an enhanced user experience.",
+    techStack: ["HTML5", "CSS", "Javascript", "Shopify", "Shopify Apps", "Bootstrap", "GSAP"],
+    actions: [
+      { label: "View Store", URL: "https://lemond.com/" }
     ],
   },
   {
